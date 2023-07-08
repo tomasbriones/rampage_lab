@@ -13,6 +13,7 @@ export const Register = (props) => {
 
     return (
         <div className="auth-form-container">
+            <h2>Register</h2>
             <form className="register-form" onSubmit={handleSubmit}>
                 <label htmlFor="Name">Nombre</label>
                 <input value= {name} onChange={(e) => setName(e.target.value)} type="name" placeholder="tu nombre aqui" id="name" name="name" />
