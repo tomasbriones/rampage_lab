@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: linear-gradient(950deg,#1F2833,#E6007E 48%,#1F2833);
+  background-image: linear-gradient(950deg,#1F2833,#9E9E9E 48%,#1F2833);
 }
 
 .auth-form-container, .login-form, .register-form {
@@ -24,10 +24,13 @@
 
 .genero {
   display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
 }
 
 .genero label {
-  margin-right: 1rem;
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  margin-right: 1 rem;
 }
 
 label {
